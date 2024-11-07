@@ -1,3 +1,4 @@
 # React
 
-An Recupp application 
+This are Notes Am creating as i Study! 
+
