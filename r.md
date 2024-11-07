@@ -28,6 +28,7 @@ npm-init- allows us to create package.json file.
 10. To start the development server type npm run dev in the terminal. 
 
 B. FILES: 
+1. index.html: The entry point of the program
 1. index.js/index.jsx: The entry point of the application/ or the react app. Sets up the ReactDOM : for rendering the app 
 2. app.js/jsx : The backbone/framework/The layout of how the layout of the applications/website should look like. it has both JS/HTML code syntax mixed together. 
 3. App.css : styles the specific app.js components 
@@ -35,5 +36,8 @@ B. FILES:
 
 
 resource: https://medium.com/nerd-for-tech/understanding-the-key-files-in-a-react-app-1729391ce88b
+
+
+3. Created: BlogPost
 
 
