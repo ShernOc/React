@@ -30,7 +30,7 @@ npm-init- allows us to create package.json file.
 B. FILES: 
 1. index.html: The entry point of the program
 1. index.js/index.jsx: The entry point of the application/ or the react app. Sets up the ReactDOM : for rendering the app 
-2. app.js/jsx : The backbone/framework/The layout of how the layout of the applications/website should look like. it has both JS/HTML code syntax mixed together. 
+2. app.js/jsx : The backbone/framework/The layout of how the layout of the applications/website should look like. it has both JSX/HTML code syntax mixed together. 
 3. App.css : styles the specific app.js components 
 4. index.css: its the Global CSS style that applies to the entire application. 
 
@@ -38,6 +38,56 @@ B. FILES:
 resource: https://medium.com/nerd-for-tech/understanding-the-key-files-in-a-react-app-1729391ce88b
 
 
-3. Created: BlogPost
+C. React Components
+React Function Components: This is how the layout looks like 
+import from Comments './Comments'
+function App(){
+    return (
+        <>
+        <Comments/>
+        </>
+    )
+
+}
+
+export default App; 
+
+D. Import/Export of Components
+- The import and export makes it more possible to reuse/and access the files throughout the project 
+1. Export: 
+  - export default is used once per file (export default App)
+
+  You can have export a named export function eg; 
+  export function Profile() {
+  // ...
+}
+- You can also import multiple components from the same file: 
+
+- Then, import Profile from Gallery.js to App.js using a named import (with the curly braces):
+
+- import { Profile } from './Gallery.js';
+
+2. Import: 
+helps to access the file, or the function and use them in other files or components. 
+  - One has to write the relative path of the file we are retrieving : 
+  import Gallery from './Gallery'; 
+  Either './Gallery.js' or './Gallery' will works with React,
+
+
+E. JSX rules
+1. Return a multiple elements wrapped into a single tags: ( <div><h2>Life is good </h2></div> or <></> : empty fragment tag )
+2. Close all the tags: 
+in Html:  <input type="text"> while in JSX its: <input type="text" /> : all tags must be closed. 
+3. Write things in Camelcase( ClassName = "photo")
+4. You can use tools like: https://transform.tools/html-to-jsx
+to convert the HTML to JSX file. 
+
+5. 
+
+
+
+
+
+
 
 
