@@ -17,7 +17,7 @@ const {school ,git } = life;
 
 }
 
-// Further distructuring 
+// Further destructuring 
 // function Life({life:{school,git}}){
 //     return (
 //         <>
