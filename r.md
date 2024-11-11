@@ -82,10 +82,43 @@ in Html:  <input type="text"> while in JSX its: <input type="text" /> : all tags
 4. You can use tools like: https://transform.tools/html-to-jsx
 to convert the HTML to JSX file. 
 
-5. 
+9/11/2024
+We have been passing information/data from the Child Components to the Parent Component. Now the question is how do we Pass or transfer the information from the Parent to the child components ? 
+Well here is where the PROPS comes in. 
+
+PROPS: are arguments that allows us to pass information from Parent component down to a child component: 
+PROPS holds the information that we need to pass. And this can be done by: 
+1. Passing props to child component
+2. Read/pass the props as arguments inside the child component. and use it as a Variable. 
+
+Let's Assume that we have App() react function that returns Props component with the title  <Props title = "WHAT ARE PROPS?: displayed as a prop "/>. 
+Our goal is to pass the title header to the Header components itself. This is where props comes in. 
+
+At the Header function we are going to PASS PROPS as the argument, and also we are going to name the props like so: props.title. To now pass the props we have pass it as an argument and to display it we have to return it, and to enclose it or wrap it in a curly braces {props.title}. 
+
+Header(props){
+  return(
+    <>
+    {props.title} 
+    </>
+  )
+  
+}
+
+2. Read props inside the child component and use it as a Varianble. 
+This is done by taking the name of the prop and wrapping it in curly braces and pass it as an argument in the function. 
+eg: function Header({title}):Now you can use them inside the Header component. like a variable 
 
 
 
+  <BlogContent articleText="Dear Reader: Bjarne Stroustrup has the perfect lecture oration." />
+Blog
+But seriously why would pass info to the child and not the child passing to the 
+
+
+11/11/2024 
+DESTRUCTURING
+To continue on with props, there is something called destructuring. To me destructuring to me is like breaking down so that the code can be easier to read. Example (Movie name = "Sherlyne") that is passed on to Movie components. At the Movie components we pass {props.name} object as an argument. However w now can omit the prop and just allow to only pass the {name} also we can include many object passed into a function: eg {name,birth,bio} this are all props destructuring. To now apply one can use the props such as : I should be named {name}. 
 
 
 
