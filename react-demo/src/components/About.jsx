@@ -1,26 +1,26 @@
 import Link from "./Link";
 
 // This is a default prop : bio ="This is a default" 
-function About({ bio ="This is a default" , linkedin , github }){
-     const display = {bio}
-
+function About({ bio = "Welcome to my blog! Am writing this blog as a platform to share my experience and progress as i learn to code, to be specific learning React. I believe that that everyone has a way of grasping information and for me writing/recapping is the solution. " , linkedin, github }) {
+    
+    const display = { bio };
 
     return (
         <>
-        <h2>About</h2>
-        {display? <p> {bio} </p>:null} 
+        <div className="about">
+            <h1>About Page</h1>
+            {display ? <p> {bio} </p> : null}
 
-        {/* <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" /> */}
+            {/* <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" /> */}
+            <br />
 
-        <Link  linkedin={linkedin} github={github} />
-
-        </>  
+            <Link linkedin={linkedin} github={github} />
+            
+        </div>
+        </>
     )
-    
-    // // About.protoTypes = {
-    //     bio:protoTypes.string.isRequired
-    //  }
-   
+
+
 }
-  
+
 export default About;

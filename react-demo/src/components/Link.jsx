@@ -1,15 +1,13 @@
 
-function Link({linkedin , github }){
-
-
-    return(
+function Link({ linkedin, github }) {
+    return (
         <>
-        <h3>Links</h3>
-        <p>
-        <a href={github}>Linkedin </a>
-        <br />
-        <a href={linkedin}>github</a>
-        </p>
+            <h2>Links Used Rendered as Props</h2>
+            <p>
+                1. <a href={github} target="_blank">{github}</a>
+                <br />
+                2. <a href={linkedin} target="_blank">{linkedin}</a>
+            </p>
         </>
     )
 }

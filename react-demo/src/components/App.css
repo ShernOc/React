@@ -1,8 +1,33 @@
-body{
-    background: white;
-}
 
 .image{
     height: 100;
     width: 50;
-  }
+}
+nav{
+display: flex;
+font-size: 30px;
+justify-content: space-evenly;
+margin:0px;
+background: rgb(237, 234, 234);
+border-radius: 10px;
+}
+
+.home{
+background: rgba(216, 212, 212, 0.478);
+border-radius: 10px;
+border-color: black;
+border-style: solid;
+}
+
+.about{
+    background-color:rgba(216, 212, 212, 0.829);
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+.bookcard{background-color:rgba(216, 212, 212, 0.829);
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+

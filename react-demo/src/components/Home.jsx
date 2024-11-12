@@ -1,16 +1,15 @@
 
+function Home({title}){
+return (
+<>
+<div className ="home">
+     <h1>{title}</h1>
 
-function Home2({user}){
-    return(
-        <> 
-        <h1> Home</h1>
-        <p> {user}</p>
-       
-
-        
-        </>
-       
-    )
+     <p>This is a Landing page </p>
+    </div>
+</>
+)
+   
 }
 
-export default Home2
+export default Home;

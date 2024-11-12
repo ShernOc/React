@@ -120,6 +120,12 @@ But seriously why would pass info to the child and not the child passing to the
 DESTRUCTURING
 To continue on with props, there is something called destructuring. To me destructuring to me is like breaking down so that the code can be easier to read. Example (Movie name = "Sherlyne") that is passed on to Movie components. At the Movie components we pass {props.name} object as an argument. However w now can omit the prop and just allow to only pass the {name} also we can include many object passed into a function: eg {name,birth,bio} this are all props destructuring. To now apply one can use the props such as : I should be named {name}. 
 
+12/11/2024
+KEY-PROPS 
+Well, Okay 
+Today i have learnt to have Array/List into the react components: This is displayed in the Navbar component. 
+-In order to display the List elements, the Key-prop is to be used. 
+
 
 
 

@@ -1,5 +1,4 @@
 
-
 // Destructuring/ nested prop object 
 
 function Desprop({life}){
@@ -7,12 +6,11 @@ function Desprop({life}){
 const {school ,git } = life;
     return(
         <>
-        <p>We are passing the w3school link <a href={school}>{school}</a> <br /> 
-        and also am going to call in 
-        <a href={git}>{git}</a></p>
-
+        <h3>Passing Destructuring Props Links:</h3>
+        <a href={school} target = "_blank"> W3schools</a> 
+        <br /> 
+        <a href={git} target = "_blank">Github</a>
         </>
-
     )
 
 }

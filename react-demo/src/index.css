@@ -1,5 +1,22 @@
- :root {
-  background:#edf6f9;
+*{
+  font-family:Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 10px; 
+  padding:5px; 
+  box-sizing: border-box;
+  text-decoration: none;
+  justify-content: center;
+  text-align:justify;
+  }
+  
+  body{
+  background-image: url("https://www.jotform.com/blog/wp-content/uploads/2022/02/niko-photos-tGTVxeOr_Rs-unsplash.jpg");
+  background-repeat: black no-repeat cover center;
+  border-radius: 10px;
+}
+
+  :root{
+  align-items: center;
+  background:rgb(64, 64, 64);
   color-scheme: light dark;
   color:#24252e;
   line-height: 1.5;
@@ -7,24 +24,7 @@
   font-size: large;
   font-weight: semi-bold;
   padding: 2rem;
-}
-
-*{
-  font-family:Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  margin: 0; 
-  padding: 0; 
-  box-sizing: border-box;
-  text-decoration: none;outline:none; 
-  border: none; 
-  align-items: center;
-  }
-
-#navbar{
-  display:flex;
-  justify-content:space-evenly;
-
-
-}
+} 
 
 
 a {
@@ -41,11 +41,5 @@ a:hover {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-
-img{
-  height: 100;
-  width: 50;
 }
 

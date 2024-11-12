@@ -9,9 +9,8 @@ export function Profile(){
     return (
 <>
 <img
-      src="	https://m.media-amazon.com/images/I/71pLBUAwSJL._SL1500_.jpg"
-
-      alt="Alan L. Hart"
+      src="https://m.media-amazon.com/images/I/91RTxlqiz4L._SX342_.jpg"
+      alt="Trevor Noah Book"
     />
   
 </>
