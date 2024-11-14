@@ -5,6 +5,10 @@ import BookCard from "./Bookcard.jsx";
 
 // We are going to now render the book card. 
 function Booklist({ books }) {
+    //EVENT HANDLER for HandleChange for the Input Values, 
+    function handleChange(e){
+        console.log(`${e.target.name}:${e.target.value}`);
+    }
 
     const bookCard = books.map(book => {
         return (
@@ -16,6 +20,17 @@ function Booklist({ books }) {
         <>
             <div className="booklist">
             <h1>Book Collection</h1>
+            <div id="input">
+                <label htmlFor="input">Book Name:</label>
+                <input type="text" placeholder="type a book" onChange={handleChange}/>
+                <button onClick={()=>{console.log("Hey thats a button")}}></button>
+               
+                <select name="filter" onChange={handleChange}>
+        <option value="all">Select a filter...</option>
+        <option value="completed">Completed</option>
+        <option value="incomplete">Incomplete</option>
+       </select>
+       </div>
                 {/* render BookCard components here */}
                 {bookCard}
             </div>
