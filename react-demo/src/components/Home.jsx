@@ -1,3 +1,4 @@
+import Message from './Class.jsx';
 
 function Home({ title }) {
     return (
@@ -6,6 +7,7 @@ function Home({ title }) {
                 <h1>{title}</h1>
 
                 <p>This is a Landing page </p>
+                <Message/>
             </div>
         </>
     )

@@ -6,6 +6,7 @@ import Booklist from "./Booklist.jsx";
 import books from "./Books.jsx";
 import Desprop from './Desprop.jsx';
 import { Profile } from './Gallery.jsx';
+
 import './App.css';
 // import './small.json'
 
@@ -28,9 +29,11 @@ export default function App() {
                 linkedin="https://github.com/"/>}/>
 
                 <Route path="/booklist" element = {<Booklist books={books}/>}/>
-                <Route path='' element = {  <Profile />} />
+                <Route path='/profile' element = {  <Profile />} />
                 {/* The Desprop is showing the two links */}
            <Route element = { <Desprop life={classLink} id ="desprop"/> } />
+
+
             </Routes>
 
         </Router>
