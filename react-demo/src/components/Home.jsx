@@ -1,4 +1,6 @@
 import Message from './Class.jsx';
+import Use from './Use.jsx';
+import Use2 from './Use2.jsx';
 
 function Home({ title }) {
     return (
@@ -8,6 +10,8 @@ function Home({ title }) {
 
                 <p>This is a Landing page </p>
                 <Message/>
+                <Use/>
+                <Use2/>
             </div>
         </>
     )

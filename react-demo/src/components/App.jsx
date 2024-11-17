@@ -7,6 +7,7 @@ import books from "./Books.jsx";
 import Desprop from './Desprop.jsx';
 import { Profile } from './Gallery.jsx';
 
+
 import './App.css';
 // import './small.json'
 
@@ -32,7 +33,6 @@ export default function App() {
                 <Route path='/profile' element = {  <Profile />} />
                 {/* The Desprop is showing the two links */}
            <Route element = { <Desprop life={classLink} id ="desprop"/> } />
-
 
             </Routes>
 

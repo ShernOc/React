@@ -31,3 +31,14 @@ border-style: solid;
     border-style: solid;
 }
 
+#addbooks{
+    border-color: black;
+    border: solid;
+    background: rgb(216, 208, 208);
+    border-radius: 10px;
+}
+form{
+    border-radius: 10px;
+    color: blue;
+    background-color: rgb(139, 215, 159);
+}
